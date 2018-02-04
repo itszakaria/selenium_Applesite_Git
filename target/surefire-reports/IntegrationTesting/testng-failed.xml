@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [IntegrationTesting]">
+  <test name="Integrated testcases(failed)">
+    <classes>
+      <class name="TestCases.SupportPageTesting">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="pageStatus"/>
+        </methods>
+      </class> <!-- TestCases.SupportPageTesting -->
+    </classes>
+  </test> <!-- Integrated testcases(failed) -->
+</suite> <!-- Failed suite [IntegrationTesting] -->

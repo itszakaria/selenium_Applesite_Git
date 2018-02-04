@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="GroupTesting">
+	<test name="Group Testing">
+		<groups>
+			<define name="macBookGrouped">
+				<include name="macBook" />
+				
+			</define>
+			<run>
+				<include name="macBookGrouped" />
+			</run>
+		</groups>
+		<classes>
+			<class name="TestCases.MacBookProPageTesting" />
+			<class name="TestCases.MacBookAirPageTesting" />
+		</classes>
+	</test>
+</suite>
+
+ 

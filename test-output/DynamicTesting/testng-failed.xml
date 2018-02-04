@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DynamicTesting]">
+  <test name="paramWithFirefoxBrowser(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="TestCases.IPadPageTesting_ParemeterizingWithParameterAnnot">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="someOtherActions"/>
+        </methods>
+      </class> <!-- TestCases.IPadPageTesting_ParemeterizingWithParameterAnnot -->
+    </classes>
+  </test> <!-- paramWithFirefoxBrowser(failed) -->
+</suite> <!-- Failed suite [DynamicTesting] -->

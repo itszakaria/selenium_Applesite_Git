@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="FunctionalTesting">
+	<test name="Funcs testcases">
+		<classes>
+			<class name="TestCases.MusicPageTesting_GridTesting" />
+	
+
+
+		</classes>
+	</test>
+</suite>
+
+  

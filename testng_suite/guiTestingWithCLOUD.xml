@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name= "CloudTesting">
+    <test name= "Cloud testcases"> 
+	    <classes>
+	           <class name= "TestCases.TvPageTesting_CLoudTesting" />
+	 	</classes>
+    </test>
+</suite>
+
+  

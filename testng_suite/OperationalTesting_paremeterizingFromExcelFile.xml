@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="OperationalTesting">
+
+	<test name="dataproviding testcases">
+		<classes>
+			<class name="TestCases.MacPurchaseTesting_ParemetrisingFromExcelFile" />
+		</classes>
+	</test>
+</suite>
+
+<!-- It WORKS. -->
+<!-- Notes 1: if we two tests (not testcases) in a suite- we have to give 
+	different name for them, i made this mistake -->

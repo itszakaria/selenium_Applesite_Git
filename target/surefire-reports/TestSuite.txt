@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 4, Errors: 0, Skipped: 3, Time elapsed: 4.486 sec <<< FAILURE! - in TestSuite
+setUp(TestCases.AppleWatchTesting)  Time elapsed: 3.46 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Unable to parse remote response: Unknown error
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'ZAKARIA-HP', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: SelectDriver
+
+tearDown(TestCases.AppleWatchTesting)  Time elapsed: 3.476 sec  <<< FAILURE!
+java.lang.NullPointerException
+
+setUp(TestCases.Homepage)  Time elapsed: 4.033 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Unable to parse remote response: Unknown error
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'ZAKARIA-HP', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: SelectDriver
+
+tearDown(TestCases.Homepage)  Time elapsed: 4.033 sec  <<< FAILURE!
+java.lang.NullPointerException
+

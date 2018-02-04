@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name= "ParellelTesting", parellel="methods">
+    <test name= "Parallel Testing 01"> 
+	    <classes>
+	         <class name= "TestCases.AppleWatchTesting" />
+	         <class name= "TestCases.Homepage" />
+	         
+	 	</classes>
+    </test>
+</suite>
+
+  

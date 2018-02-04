@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name= "UnitTesting">
+    <test name= "Unit Testing 01"> 
+	    <classes>
+	         <class name= "TestCases.IPhonePageTesting" />
+	 	</classes>
+    </test>
+</suite>
+
+  

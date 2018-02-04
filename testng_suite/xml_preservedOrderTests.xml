@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name= "PreserveOrderTesting", preserve-order="true">
+    <test name= "PreservedOrderTesting 01"> 
+	    <classes>
+	         <class name= "TestCases.AppleWatchTesting" />
+	         <class name= "TestCases.Homepage" />
+	         
+	 	</classes>
+    </test>
+</suite>
+
+  

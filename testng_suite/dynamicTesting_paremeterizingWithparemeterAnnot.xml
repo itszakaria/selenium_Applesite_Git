@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name= "DynamicTesting">
+    <test name= "paramWithChromeBrowser"> 
+        <parameter name="browser" value="chrome"> </parameter>
+	    <classes>
+	         <class name= "TestCases.IPadPageTesting_ParemeterizingWithParameterAnnot" />
+	 	</classes>
+    </test>
+    
+     <test name= "paramWithEdgeBrowser"> 
+        <parameter name="browser" value="edge"> </parameter>
+	    <classes>
+	         <class name= "TestCases.IPadPageTesting_ParemeterizingWithParameterAnnot" />
+	 	</classes>
+    </test>
+   
+     <test name= "paramWithFirefoxBrowser"> 
+        <parameter name="browser" value="firefox"> </parameter>
+	    <classes>
+	         <class name= "TestCases.IPadPageTesting_ParemeterizingWithParameterAnnot" />
+	 	</classes>
+    </test>
+</suite>
+
+<!-- It WORKS.  -->
+<!-- Notes 1: if we two tests (not testcases) in a suite- we have to give different name for them, i made this mistake -->
