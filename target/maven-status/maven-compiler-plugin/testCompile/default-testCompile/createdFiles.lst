@@ -1,6 +1,7 @@
 PageClassses\MacBookAirPageFacotory.class
 Utilities\SelectDriver.class
 PageClassses\HomePageFactory.class
+Utilities\BlommingdalesHomepage.class
 Utilities\TestBase.class
 TestCases\MacPurchaseTesting_ParemetrisingFromExcelFile.class
 Utilities\Screenshot.class
@@ -21,6 +22,7 @@ PageClassses\IPhonePagePF.class
 PageClassses\MacBookProPF.class
 PageClassses\AppleTV_regularPageClass.class
 TestCases\MacBookProPageTesting.class
+TestCases\Z_InterviewChecking.class
 Utilities\ExtentFactory.class
 PageClassses\MacLinkPageFactory.class
 PageClassses\IPadPOM.class

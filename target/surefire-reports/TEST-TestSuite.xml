@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="4.486" tests="7" errors="0" skipped="3" failures="4">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="0.829" tests="0" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
     <property name="java.vm.version" value="25.144-b01"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\itszakaria\.jenkins\workspace\selenium_appleSite_maven"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\itszakaria\workspace\appleWebAppDefault"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\itszakaria\.jenkins\workspace\selenium_appleSite_maven"/>
+    <property name="user.dir" value="C:\Users\itszakaria\workspace\appleWebAppDefault"/>
     <property name="java.runtime.version" value="1.8.0_144-b01"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\endorsed"/>
@@ -28,7 +28,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="classworlds.conf" value="C:\Tools\apache-maven-3.5.0\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_144\bin\;C:\tools\apache-maven-3.5.0\bin\;C:\Program Files\nodejs\;D:\Android-sdk\sdk\platform-tools;D:\Android-sdk\sdk\tools;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\Tools\apache-ant-1.10.1-bin\apache-ant-1.10.1\bin;C:\Users\itszakaria\AppData\Local\Microsoft\WindowsApps;C:\Users\itszakaria\AppData\Roaming\npm;C:\Users\itszakaria\AppData\Local\GitHubDesktop\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\app\itszakaria\virtual\product\12.2.0\dbhome_3\bin;C:\app\itszakaria\virtual\product\12.2.0\dbhome_2\bin;C:\app\itszakaria\product\12.2.0\dbhome_1\bin;C:\Program Files\Docker\Docker\Resources\bin;C:\app\itszakaria\virtual\product\12.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_144\bin\;C:\tools\apache-maven-3.5.0\bin\;C:\Program Files\nodejs\;D:\Android-sdk\sdk\platform-tools;D:\Android-sdk\sdk\tools;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\Tools\apache-ant-1.10.1-bin\apache-ant-1.10.1\bin;C:\Program Files\nodejs\node_modules\npm\bin;C:\Users\itszakaria\AppData\Local\Microsoft\WindowsApps;C:\Users\itszakaria\AppData\Roaming\npm;C:\Users\itszakaria\AppData\Local\GitHubDesktop\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;."/>
     <property name="maven.conf" value="C:\Tools\apache-maven-3.5.0\bin\../conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
@@ -45,7 +45,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_144\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -f C:\Users\itszakaria\workspace\appleWebAppDefault\pom.xml test -PDynamicTesting"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -53,52 +53,15 @@
     <property name="java.version" value="1.8.0_144"/>
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_144\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="maven.home" value="C:\Tools\apache-maven-3.5.0\bin\.."/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="setUp" classname="TestCases.AppleWatchTesting" time="3.46">
-    <failure message="Unable to parse remote response: Unknown error&#10;Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;&#10;System info: host: &apos;ZAKARIA-HP&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: SelectDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
-Unable to parse remote response: Unknown error
-Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
-System info: host: 'ZAKARIA-HP', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
-Driver info: driver.version: SelectDriver
-</failure>
-    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
-]]></system-out>
-    <system-err><![CDATA[[20:13:00.564] - Listening on http://localhost:2132/ 
-]]></system-err>
-  </testcase>
-  <testcase name="doTheBdInterviewThings" classname="TestCases.AppleWatchTesting" time="0">
-    <skipped message="Unable to parse remote response: Unknown error&#10;Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;&#10;System info: host: &apos;ZAKARIA-HP&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: SelectDriver"/>
-  </testcase>
-  <testcase name="tearDown" classname="TestCases.AppleWatchTesting" time="3.476">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-</failure>
-  </testcase>
-  <testcase name="setUp" classname="TestCases.Homepage" time="4.033">
-    <failure message="Unable to parse remote response: Unknown error&#10;Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;&#10;System info: host: &apos;ZAKARIA-HP&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: SelectDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
-Unable to parse remote response: Unknown error
-Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
-System info: host: 'ZAKARIA-HP', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
-Driver info: driver.version: SelectDriver
-</failure>
-    <system-err><![CDATA[[20:13:01.695] - Listening on http://localhost:42264/ 
-]]></system-err>
-  </testcase>
-  <testcase name="pageAuthentication" classname="TestCases.Homepage" time="0">
-    <skipped message="Unable to parse remote response: Unknown error&#10;Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;&#10;System info: host: &apos;ZAKARIA-HP&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: SelectDriver"/>
-  </testcase>
-  <testcase name="someOtherFunctions" classname="TestCases.Homepage" time="0">
-    <skipped message="Method Homepage.someOtherFunctions()[pri:0, instance:TestCases.Homepage@dfd3711] depends on not successfully finished methods"/>
-  </testcase>
-  <testcase name="tearDown" classname="TestCases.Homepage" time="4.033">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-</failure>
-  </testcase>
 </testsuite>
