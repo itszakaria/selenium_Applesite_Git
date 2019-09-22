@@ -18,7 +18,7 @@ public class Screenshot {
 
 	// to take ss
 	public static void takeScreenshot(WebDriver driver, String fileName) throws IOException {
-		String path = "C:\\Users\\itszakaria\\workspace\\appleWebAppDefault\\src\\test\\documentation\\Screenshot\\";
+		String path = "C:\\Users\\itsza\\workspace\\appleWebAppDefault\\src\\test\\documentation\\Screenshot\\";
 		//String path = "screenshot//";
 		String fName = fileName + "_" + Others.getRandomName(3) + ".png";
 		File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
@@ -29,7 +29,7 @@ public class Screenshot {
 	public static String returnScreenshotPathForAdvReport(WebDriver driver, String testName) throws IOException {
 		String destination = null;
 
-		String path = "C:\\users\\itszakaria\\workspace\\appleWebAppDefault\\src\\\\test\\documentation\\Screenshot\\";
+		String path = "C:\\users\\itsza\\workspace\\appleWebAppDefault\\src\\\\test\\documentation\\Screenshot\\";
 		//String path = "screenshot//";
 		String fName = testName + "_" + Others.getRandomName(5) + ".png";
 		File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);

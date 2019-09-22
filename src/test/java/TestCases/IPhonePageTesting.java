@@ -22,7 +22,7 @@ public class IPhonePageTesting extends TestBase {
 		baseUrl = "http://www.apple.com/";
 		log = LogManager.getLogger(IPhonePageTesting.class.getName());
 		report = ExtentFactory.getInstance("Apple_iPhonePage");
-		elog = report.startTest("Apple iPhone Page Testing getting started.");
+		elog = report.startTest("Apple iPhone Page Testing");
 
 		driver.get(baseUrl);
 		elog.log(LogStatus.INFO, "Opened the Application");

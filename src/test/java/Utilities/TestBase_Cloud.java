@@ -35,7 +35,7 @@ public class TestBase_Cloud {
 	protected WebDriver driver;
 	protected ExtentReports report;
 	protected ExtentTest test;
-	protected SelectDriver sd;
+	// protected SelectDriver sd;
 	protected DesiredCapabilities dc;
 	protected String baseUrl;
 	
@@ -47,7 +47,7 @@ public class TestBase_Cloud {
 
 	@BeforeClass
 	public void setUp() throws MalformedURLException {
-		sd = new SelectDriver(driver);
+		// sd = new SelectDriver(driver);
 		try {
 			Properties prop  = new Properties();
 			FileInputStream fis = new FileInputStream("C:\\Users\\itszakaria\\workspace\\appleWebAppDefault\\src\\test\\resources\\config.properties");

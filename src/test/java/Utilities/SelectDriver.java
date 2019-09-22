@@ -53,7 +53,9 @@ public class SelectDriver {
 		
 		String projectLocation = System.getProperty("user.dir");
 		if(browserName.equals("chrome")){
-			System.setProperty("webdriver.chrome.driver", projectLocation + "//lib_drivers//chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C://lib_drivers//chromedriver.exe");
+			// System.setProperty("webdriver.chrome.driver", projectLocation + "//lib_drivers//chromedriver.exe");
+			// the above line works too, need to update teh drivers from c:/Lib_drivers
 			driver = new ChromeDriver();
 		}else if(browserName.equals("firefox")){
 			System.setProperty("webdriver.gecko.driver", projectLocation + "//lib_drivers//geckodriver.exe");

@@ -58,6 +58,7 @@ public class Homepage extends TestBase {
 		elog.log(LogStatus.PASS, "Counted the links, clickable links, and assessed the status");
 	}
 
+	
 	@Test(dependsOnMethods = "pageAuthentication")
 	public void someOtherFunctions() throws AWTException, IOException, InterruptedException {
 

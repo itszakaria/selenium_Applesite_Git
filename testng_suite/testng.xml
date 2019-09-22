@@ -5,6 +5,7 @@
 	         <class name= "TestCases.AppleWatchTesting" />
 	         <class name= "TestCases.Homepage" />
 	 	</classes>
+	 	
     </test>
 </suite>
 

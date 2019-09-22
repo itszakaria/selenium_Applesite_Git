@@ -46,7 +46,7 @@ public class AppleWatchTesting extends TestBase {
 		Thread.sleep(10000);
 	}
 	
-	@Test(enabled = false)
+	@Test(enabled = true)
 	public void pageAuthentication() throws AWTException, IOException {
 		baseUrl = "http://www.apple.com/";
 		log = LogManager.getLogger(AppleWatchTesting.class.getName());

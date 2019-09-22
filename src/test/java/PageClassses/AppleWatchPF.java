@@ -18,12 +18,10 @@ public class AppleWatchPF {
 		PageFactory.initElements(driver, this);
 		}
 	
+	
 	@FindBy(xpath="//nav[@id='ac-globalnav']/div/ul[2]/li[5]/a")
 	WebElement watch;
-	
-	public WebElement returnWatch(){
-		return watch;
-	}
+		
 	
 	public void clickOnWatch(){
 		watch.click();
@@ -33,20 +31,25 @@ public class AppleWatchPF {
 	@FindBy(xpath="//div[@id='main']/section[1]/div/p/a[2]")
 	WebElement buy;
 	
+	
 	public void clickOnBuy(){
 		buy.click();
 	}
 	
+	
 	@FindBy(xpath="//div[@id='page']/div[6]/div[3]/div/div[2]/div/div/div[3]/store-provider/grid-page/wuip-grid/ul/li[10]/div/div[1]/img")
 	WebElement watch01;
+	
 	
 	public WebElement returnWatch01(){
 		return watch01;
 	}
 	
+	
 	public void clickOnWatch01(){
 		watch01.click();
 	}
+	
 	
 	@FindBy(xpath="//div[@class='localnav-header']/h1/a")
 	WebElement watchSeries2;
@@ -55,15 +58,19 @@ public class AppleWatchPF {
 		watchSeries2.click();
 	}
 	
+	
 	@FindBy(xpath="//main[@id=\'main\']/section[6]/div/div/div/div[3]/div/a/figure")
 	WebElement justElement;
+	
 	
 	public WebElement returnJustElement(){
 		return justElement;
 	}
 	
+	
 	@FindBy(xpath="//*[@id=\"main\"]/section[4]/div[2]/div[1]/figure/a")
 	WebElement interactiveGallery;
+	
 	
 	public void clickInteractiveGallery() {
 		interactiveGallery.click();
@@ -82,4 +89,11 @@ public class AppleWatchPF {
 	public WebElement specificClock() {
 		return specificClock;
 	}
+	
+	
+	public WebElement returnWatch(){
+		return watch;
+	}
+	
+	
 }

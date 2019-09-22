@@ -46,11 +46,12 @@ public class MacPurchaseTesting_ParemetrisingFromExcelFile {
 	ScanThisPage stp;
 	Others ot;
 	JavascriptExecutor js;
-
+	String projectLocation = System.getProperty("user.dir");
+	
 	@BeforeClass
 	public void setUp() throws IOException {
-		fis = new FileInputStream(
-				"C:\\Users\\itszakaria\\workspace\\appleWebAppDefault\\src\\test\\resources\\parameterizingFromExternalSource.xlsx");
+		fis = new FileInputStream( projectLocation + 
+				"\\src\\test\\resources\\parameterizingFromExternalSource.xlsx");
 		wb = new XSSFWorkbook(fis);
 		sheet = wb.getSheet("browsersList");
 

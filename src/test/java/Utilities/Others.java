@@ -125,7 +125,7 @@ public class Others {
 		
 		// Check the file's existence
 		File x = new File(
-				"C:\\Users\\itszakaria\\workspace\\appleWebAppDefault\\src\\test\\documentation\\" + filename + dotFormat);
+				"C:\\Users\\itsza\\workspace\\appleWebAppDefault\\src\\test\\documentation\\" + filename + dotFormat);
 
 		if (x.exists()) {
 			System.out.println(x.getName() + " > : exist!!, sorry Give another name and try again");
@@ -135,7 +135,7 @@ public class Others {
 
 			try {
 				f = new Formatter(
-						"C:\\Users\\itszakaria\\workspace\\appleWebAppDefault\\src\\test\\documentation\\" + filename + dotFormat);
+						"C:\\Users\\itsza\\workspace\\appleWebAppDefault\\src\\test\\documentation\\" + filename + dotFormat);
 				System.out.println("We created a file named : " + filename + dotFormat);
 			} catch (Exception e) {
 				System.out.println(e.getMessage());
@@ -152,7 +152,7 @@ public class Others {
 	public void writeResultToPropertiesFile(String testName, String testResult) throws IOException {
 		Properties prop = new Properties();
 		OutputStream fos = new FileOutputStream(
-				"C:\\Users\\itszakaria\\workspace\\appleWebAppDefault\\src\\test\\documentation\\testResult.properties", true);
+				"C:\\Users\\itsza\\workspace\\appleWebAppDefault\\src\\test\\documentation\\testResult.properties", true);
 
 		prop.setProperty(testName, testResult);
 		prop.store(fos, null);

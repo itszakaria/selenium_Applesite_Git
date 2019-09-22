@@ -126,7 +126,7 @@ public class MacBookProPageTesting extends TestBase{
 		js.executeScript("arguments[0].scrollIntoView(true);", macBookProCompare);
 		}catch(Exception e) {
 		// sometimes above statement does not work
-		js.executeScript("window.scrollBy(0,1800);");
+		js.executeScript("window.scrollBy(0,1200);");
 		}
 
 		elog.log(LogStatus.INFO, "We are at the bottom of the page");

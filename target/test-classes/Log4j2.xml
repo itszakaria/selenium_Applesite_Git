@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration>
 	<Properties>
-		<Property name="basePath">C:\\Users\\itszakaria\\workspace\\appleWebAppDefault\\src\\test\\documentation</Property>
+		<Property name="basePath">C:\\Users\\itsza\\workspace\\appleWebAppDefault\\src\\test\\documentation</Property>
 	</Properties>
 	<Appenders>
 		<RollingFile name="File" fileName="${basePath}/appleWebTest.log" filePattern="${basePath}/app-%d{yyyy-MM-dd}.log">
@@ -15,6 +15,7 @@
 			<PatternLayout pattern="%d{HH:mm:ss.SSS} %-5level %c{1} -%msg%n"/>
 		</Console>
 	</Appenders>
+	
 	<Loggers>
         <Root level="info">
 			<AppenderRef ref="File"/>

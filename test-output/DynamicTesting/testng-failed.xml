@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [DynamicTesting]">
-  <test name="paramWithFirefoxBrowser(failed)">
+  <test thread-count="5" name="paramWithFirefoxBrowser(failed)">
     <parameter name="browser" value="firefox"/>
     <classes>
       <class name="TestCases.IPadPageTesting_ParemeterizingWithParameterAnnot">
         <methods>
+          <include name="actions"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
           <include name="setUp"/>

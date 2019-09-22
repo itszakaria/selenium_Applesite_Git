@@ -16,12 +16,15 @@ public class IpadPF {
 		PageFactory.initElements(driver, this);
 	}
 
+	
 	@FindBy(xpath = "//nav[@id='ac-globalnav']/div/ul[2]/li[3]/a")
 	WebElement ipad;
 
 	public void clickOnIpad() {
 		ipad.click();
 	}
+	
+	
 	
 	
 }

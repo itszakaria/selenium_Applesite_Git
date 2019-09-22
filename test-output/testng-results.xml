@@ -1,51 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="51535" started-at="2018-02-03T15:18:20Z" finished-at="2018-02-03T15:19:11Z">
+  <suite name="Default suite" duration-ms="78723" started-at="2019-09-02T15:37:13Z" finished-at="2019-09-02T15:38:31Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="51535" started-at="2018-02-03T15:18:20Z" finished-at="2018-02-03T15:19:11Z">
-      <class name="TestCases.IPhonePageTesting">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.IPhonePageTesting@589838eb]" name="setUp" is-config="true" duration-ms="2674" started-at="2018-02-03T10:18:20Z" finished-at="2018-02-03T10:18:22Z">
+    <test name="Default test" duration-ms="78723" started-at="2019-09-02T15:37:13Z" finished-at="2019-09-02T15:38:31Z">
+      <class name="TestCases.Homepage">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.Homepage@204f30ec]" name="setUp" is-config="true" duration-ms="10778" started-at="2019-09-02T15:37:13Z" finished-at="2019-09-02T15:37:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="pageAuthentication()[pri:0, instance:TestCases.IPhonePageTesting@589838eb]" name="pageAuthentication" duration-ms="34507" started-at="2018-02-03T10:18:22Z" finished-at="2018-02-03T10:18:57Z">
+        <test-method status="PASS" signature="pageAuthentication()[pri:0, instance:TestCases.Homepage@204f30ec]" name="pageAuthentication" duration-ms="33577" started-at="2019-09-02T15:37:23Z" finished-at="2019-09-02T15:37:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageAuthentication -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCases.IPhonePageTesting@589838eb]" name="tearDown" is-config="true" duration-ms="17" started-at="2018-02-03T10:18:57Z" finished-at="2018-02-03T10:18:57Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCases.Homepage@204f30ec]" name="tearDown" is-config="true" duration-ms="15" started-at="2019-09-02T15:37:57Z" finished-at="2019-09-02T15:37:57Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=pageAuthentication status=SUCCESS method=IPhonePageTesting.pageAuthentication()[pri:0, instance:TestCases.IPhonePageTesting@589838eb] output={null}]]]>
+                <![CDATA[[TestResult name=pageAuthentication status=SUCCESS method=Homepage.pageAuthentication()[pri:0, instance:TestCases.Homepage@204f30ec] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="someOtherFunctions()[pri:0, instance:TestCases.IPhonePageTesting@589838eb]" name="someOtherFunctions" duration-ms="13867" started-at="2018-02-03T10:18:57Z" finished-at="2018-02-03T10:19:11Z">
+        <test-method status="FAIL" signature="someOtherFunctions()[pri:0, instance:TestCases.Homepage@204f30ec]" name="someOtherFunctions" duration-ms="33547" started-at="2019-09-02T15:37:57Z" depends-on-methods="TestCases.Homepage.pageAuthentication" finished-at="2019-09-02T15:38:31Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[@id="enhanced-gallery-hero-gallery-previous-trigger"]"}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-EBGJHK8', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7..., userDataDir: C:\Users\itsza\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50646}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 27df6c4f8e4cb1da74dbe931cfaf1196
+*** Element info: {Using=xpath, value=//button[@id="enhanced-gallery-hero-gallery-previous-trigger"]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@id="enhanced-gallery-hero-gallery-previous-trigger"]"}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-EBGJHK8', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7..., userDataDir: C:\Users\itsza\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50646}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 27df6c4f8e4cb1da74dbe931cfaf1196
+*** Element info: {Using=xpath, value=//button[@id="enhanced-gallery-hero-gallery-previous-trigger"]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy10.isDisplayed(Unknown Source)
+at TestCases.Homepage.someOtherFunctions(Homepage.java:77)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- someOtherFunctions -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCases.IPhonePageTesting@589838eb]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-02-03T10:19:11Z" finished-at="2018-02-03T10:19:11Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCases.Homepage@204f30ec]" name="tearDown" is-config="true" duration-ms="432" started-at="2019-09-02T15:38:31Z" finished-at="2019-09-02T15:38:31Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=someOtherFunctions status=SUCCESS method=IPhonePageTesting.someOtherFunctions()[pri:0, instance:TestCases.IPhonePageTesting@589838eb] output={null}]]]>
+                <![CDATA[[TestResult name=someOtherFunctions status=FAILURE method=Homepage.someOtherFunctions()[pri:0, instance:TestCases.Homepage@204f30ec] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.IPhonePageTesting@589838eb]" name="tearDown" is-config="true" duration-ms="427" started-at="2018-02-03T10:19:11Z" finished-at="2018-02-03T10:19:11Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.Homepage@204f30ec]" name="tearDown" is-config="true" duration-ms="328" started-at="2019-09-02T15:38:31Z" finished-at="2019-09-02T15:38:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- TestCases.IPhonePageTesting -->
+      </class> <!-- TestCases.Homepage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
