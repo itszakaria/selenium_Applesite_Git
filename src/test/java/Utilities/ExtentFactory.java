@@ -6,7 +6,8 @@ public class ExtentFactory {
 
 	public static ExtentReports getInstance(String testName) {
 		ExtentReports extent;
-		String path = "C:\\Users\\itsza\\workspace\\appleWebAppDefault\\src\\test\\documentation\\" + testName + ".html";
+		String proPath = System.getProperty("user.dir");
+		String path = proPath+ "\\src\\test\\documentation\\" + testName + ".html";
 		extent = new ExtentReports(path, false);
 		
 		extent 

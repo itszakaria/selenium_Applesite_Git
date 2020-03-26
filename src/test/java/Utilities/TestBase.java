@@ -14,7 +14,6 @@ import org.testng.annotations.BeforeClass;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 
-
 import PageClassses.AppleWatchPF;
 import PageClassses.HomePageFactory;
 import PageClassses.IPhonePagePF;
@@ -38,20 +37,20 @@ public class TestBase {
 	public static MacBookAirPageFacotory mapf;
 	public static MacBookProPF mbpf;
 	public static SupportPF spf;
-	
+
 	public static Logger log;
 	public static JavascriptExecutor js;
 
 	public static ExtentReports report;
 	public static ExtentTest elog;
-	
+
 	public static BlommingdalesHomepage bh;
 
-	@BeforeClass(alwaysRun=true, groups = {"macBook"})
+	@BeforeClass(alwaysRun = true, groups = { "macBook" })
 	public static void setUp() {
 		sd = new SelectDriver(driver);
 		driver = sd.invokeBrowser();
-		//driver = sd.selectMyDriver("chrome");
+		// driver = sd.selectMyDriver("chrome");
 
 		js = (JavascriptExecutor) driver;
 
@@ -67,31 +66,31 @@ public class TestBase {
 		mbpf = new MacBookProPF(driver, elog);
 		spf = new SupportPF(driver, elog);
 		bh = new BlommingdalesHomepage(driver);
-		
+
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
 
-	
 	@AfterMethod(alwaysRun = true)
 	public void tearDown(ITestResult tResult) throws IOException {
 		if (tResult.getStatus() == tResult.SUCCESS) {
-			ot.writeResultToPropertiesFile(
-				tResult.getTestClass().getName() + "_MethodName-" + tResult.getName(), "Passed!!");
+			ot.writeResultToPropertiesFile(tResult.getTestClass().getName() + "_MethodName-" + tResult.getName(),
+					"Passed!!");
 			// Screenshot.takeScreenshot(driver, "PackageClass_" +
 			// tResult.getTestClass().getName() + "_MethodName_"+ tResult.getName() +
 			// "_PASSED_");
-			
+
 		} else if (tResult.getStatus() == tResult.FAILURE) {
-			ot.writeResultToPropertiesFile( tResult.getTestClass().getName() + "_MethodName-" + tResult.getName(),
+			ot.writeResultToPropertiesFile(tResult.getTestClass().getName() + "_MethodName-" + tResult.getName(),
 					"Failed, See the screenshot!!");
-			Screenshot.takeScreenshot(driver, tResult.getTestClass().getName() + "_MethodName_"
-					+ tResult.getName() + "_FAILED_");
-			ot.writeTestResult(tResult.getTestClass().getName() + "_Method_" + tResult.getName() + "_" + ot.getRandomName(3), ".txt", tResult.getTestClass().getName(), " - Failed, See the screenshot!!");
+			Screenshot.takeScreenshot(driver,
+					tResult.getTestClass().getName() + "_MethodName_" + tResult.getName() + "_FAILED_");
+			ot.writeTestResult(
+					tResult.getTestClass().getName() + "_Method_" + tResult.getName() + "_" + ot.getRandomName(3),
+					".txt", tResult.getTestClass().getName(), " - Failed, See the screenshot!!");
 		}
 	}
-	
-	
+
 	@AfterClass(alwaysRun = true)
 	public static void tearDown() {
 		report.endTest(elog);
