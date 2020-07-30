@@ -55,7 +55,7 @@ public class TestBase_Grid {
 		try {
 			Properties prop = new Properties();
 			FileInputStream fis = new FileInputStream(
-					"C:\\Users\\itszakaria\\workspace\\appleWebAppDefault\\src\\test\\resources\\config.properties");
+					"C:\\Users\\itsza\\workspace\\appleWebAppDefault\\src\\test\\resources\\config.properties");
 			prop.load(fis);
 
 			platform = "Windows";
@@ -99,7 +99,7 @@ public class TestBase_Grid {
 		try {
 			Properties prop = new Properties();
 			FileInputStream fis = new FileInputStream(
-					"C:\\Users\\itszakaria\\workspace\\appleWebAppDefault\\src\\test\\resources\\config.properties");
+					"C:\\Users\\itsza\\workspace\\appleWebAppDefault\\src\\test\\resources\\config.properties");
 			prop.load(fis);
 
 			platform = "Windows";

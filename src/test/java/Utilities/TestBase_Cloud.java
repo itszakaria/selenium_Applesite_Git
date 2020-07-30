@@ -50,13 +50,15 @@ public class TestBase_Cloud {
 		// sd = new SelectDriver(driver);
 		try {
 			Properties prop  = new Properties();
-			FileInputStream fis = new FileInputStream("C:\\Users\\itszakaria\\workspace\\appleWebAppDefault\\src\\test\\resources\\config.properties");
+			// System.out.println("user.dir is \t: " + System.getProperty("user.dir"));
+			
+			FileInputStream fis = new FileInputStream(System.getProperty("user.dir") + "\\src\\test\\resources\\config.properties");
 			prop.load(fis);
 			String browserName = prop.getProperty("cloud01_browserName");
 			String browserVersion = prop.getProperty("cloud01_browserVersion");
 			
 			dc = new DesiredCapabilities(browserName, browserVersion, Platform.WIN10);
-			driver = new RemoteWebDriver(new URL("http://gui_tester04:77dbe169-0f21-41e8-88ad-fd7a3245372e@ondemand.saucelabs.com:80/wd/hub"), dc);
+			driver = new RemoteWebDriver(new URL("https://itsmoyna:101842fd-7117-4b3a-a1e9-1d2774cfea63@ondemand.saucelabs.com:443/wd/hub"), dc);
 			}catch(Exception e) {
 				e.printStackTrace();
 			}
@@ -69,7 +71,7 @@ public class TestBase_Cloud {
 		test = report.startTest("TvPage Testing");
 				
 		test.log(LogStatus.INFO, "Invoked Browser!!");
-		baseUrl = "http://www.apple.com/";
+		baseUrl = "https://www.apple.com/";
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
