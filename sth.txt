@@ -3,25 +3,22 @@
 
  Directory of C:\Users\itsza\workspace\appleWebAppDefault
 
-04/21/2020  11:38 AM    <DIR>          .
-04/21/2020  11:38 AM    <DIR>          ..
+07/30/2020  04:46 PM    <DIR>          .
+07/30/2020  04:46 PM    <DIR>          ..
 08/21/2019  10:30 AM             1,388 .classpath
 10/11/2017  11:53 AM               395 .gitattributes
 02/28/2018  11:27 PM               714 .gitignore
 04/18/2017  04:41 PM               570 .project
 08/14/2019  08:54 PM    <DIR>          .settings
 08/14/2019  08:54 PM    <DIR>          .src
-04/21/2020  11:23 AM             5,103 debug.log
+04/21/2020  11:48 AM             6,374 debug.log
 08/14/2019  08:54 PM    <DIR>          lib_drivers
 02/20/2020  04:33 PM             7,998 pom.xml
 03/26/2020  12:24 PM             1,025 readMe_march2620.txt
 08/14/2019  08:54 PM    <DIR>          src
-04/21/2020  11:38 AM                 0 sth.txt
-03/18/2020  11:56 AM    <DIR>          target
-02/20/2020  04:33 PM    <DIR>          test-output
-03/26/2020  04:46 PM             1,074 test.txt
-03/26/2020  04:51 PM             1,124 test2.txt
-03/27/2020  01:50 PM             1,174 test3.txt
+07/30/2020  04:46 PM                 0 sth.txt
+06/23/2020  02:13 PM    <DIR>          target
+04/21/2020  12:50 PM    <DIR>          test-output
 08/14/2019  08:54 PM    <DIR>          testng_suite
-              11 File(s)         20,565 bytes
-               9 Dir(s)   9,072,807,936 bytes free
+               8 File(s)         18,464 bytes
+               9 Dir(s)  18,324,885,504 bytes free
