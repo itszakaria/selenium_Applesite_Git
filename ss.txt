@@ -1,0 +1,23 @@
+ Volume in drive C has no label.
+ Volume Serial Number is F41E-273A
+
+ Directory of C:\Users\itsza\OneDrive\Documents\GitHub\AzureTesting
+
+08/12/2020  09:00 PM    <DIR>          .
+08/12/2020  09:00 PM    <DIR>          ..
+07/30/2020  03:44 PM             1,388 .classpath
+07/30/2020  03:44 PM               395 .gitattributes
+07/30/2020  03:44 PM               696 .gitignore
+07/30/2020  03:44 PM               570 .project
+07/30/2020  03:44 PM               572 azure-pipelines.yml
+08/12/2020  08:59 PM    <DIR>          lib_drivers
+07/30/2020  03:44 PM             7,817 pom.xml
+07/30/2020  03:44 PM                 0 README.MD
+08/12/2020  08:59 PM    <DIR>          src
+08/12/2020  09:00 PM                 0 ss.txt
+08/12/2020  08:55 PM             1,098 sth.txt
+08/12/2020  08:59 PM    <DIR>          target
+08/12/2020  08:59 PM    <DIR>          test-output
+08/12/2020  08:59 PM    <DIR>          testng_suite
+               9 File(s)         12,536 bytes
+               7 Dir(s)  15,304,867,840 bytes free
