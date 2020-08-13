@@ -1,6 +1,6 @@
 package Utilities;
 
-import java.awt.AWTException;
+import java.awt.AWTException; 
 import java.awt.Robot;
 import java.io.File;
 import java.io.IOException;
@@ -12,7 +12,7 @@ import org.openqa.selenium.WebDriver;
 
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
-import com.sun.glass.events.KeyEvent;
+
 
 public class Screenshot {
 
@@ -39,7 +39,7 @@ public class Screenshot {
 		return destination;
 	}
 
-	public void takeMultiSSofThisPage(WebDriver driver, String giveNameForSShot) throws AWTException, IOException {
+	public void takeMultiSSofThisPage(WebDriver driver, String giveNameForSShot) throws AWTException, IOException {/*
 		Robot rob = new Robot();
 
 		rob.keyPress(KeyEvent.VK_PAGE_DOWN);
@@ -77,7 +77,7 @@ public class Screenshot {
 
 		takeScreenshot(driver, giveNameForSShot);
 
-	}
+	*/}
 	
 	
 	public void addScreenshotToAdvReport(WebDriver driver, String imgName, ExtentTest test) throws IOException, InterruptedException{
